@@ -1,0 +1,76 @@
+
+enemy sd.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 2638, 131
+  size: 521, 681
+  orig: 521, 681
+  offset: 0, 0
+  index: -1
+Ellipse 1
+  rotate: false
+  xy: 3121, 972
+  size: 520, 441
+  orig: 520, 441
+  offset: 0, 0
+  index: -1
+Foot L
+  rotate: true
+  xy: 3121, 1415
+  size: 495, 481
+  orig: 495, 481
+  offset: 0, 0
+  index: -1
+Foot R
+  rotate: false
+  xy: 3321, 216
+  size: 395, 499
+  orig: 395, 499
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 3389, 730
+  size: 325, 240
+  orig: 325, 240
+  offset: 0, 0
+  index: -1
+Leg L
+  rotate: false
+  xy: 3604, 1504
+  size: 341, 406
+  orig: 341, 406
+  offset: 0, 0
+  index: -1
+Leg R
+  rotate: false
+  xy: 3643, 1098
+  size: 317, 404
+  orig: 317, 404
+  offset: 0, 0
+  index: -1
+arm L
+  rotate: true
+  xy: 2638, 654
+  size: 1256, 481
+  orig: 1256, 481
+  offset: 0, 0
+  index: -1
+arm L up
+  rotate: false
+  xy: 3121, 717
+  size: 266, 253
+  orig: 266, 253
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 2, 2
+  size: 1908, 2634
+  orig: 1908, 2634
+  offset: 0, 0
+  index: -1

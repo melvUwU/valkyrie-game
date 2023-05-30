@@ -1,0 +1,265 @@
+
+rig finch Cut.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm L
+  rotate: false
+  xy: 834, 57
+  size: 105, 186
+  orig: 105, 186
+  offset: 0, 0
+  index: -1
+Arm R
+  rotate: false
+  xy: 730, 664
+  size: 97, 176
+  orig: 97, 176
+  offset: 0, 0
+  index: -1
+Bang mid
+  rotate: false
+  xy: 867, 860
+  size: 158, 162
+  orig: 158, 162
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 640, 298
+  size: 218, 283
+  orig: 218, 283
+  offset: 0, 0
+  index: -1
+Gun
+  rotate: true
+  xy: 99, 575
+  size: 447, 355
+  orig: 447, 355
+  offset: 0, 0
+  index: -1
+Gun belt
+  rotate: false
+  xy: 2, 5
+  size: 96, 232
+  orig: 96, 232
+  offset: 0, 0
+  index: -1
+Hand L
+  rotate: false
+  xy: 956, 339
+  size: 111, 121
+  orig: 111, 121
+  offset: 0, 0
+  index: -1
+Hand R
+  rotate: false
+  xy: 633, 842
+  size: 122, 180
+  orig: 122, 180
+  offset: 0, 0
+  index: -1
+Hat
+  rotate: true
+  xy: 456, 662
+  size: 360, 175
+  orig: 360, 175
+  offset: 0, 0
+  index: -1
+Hood
+  rotate: true
+  xy: 633, 663
+  size: 177, 95
+  orig: 177, 95
+  offset: 0, 0
+  index: -1
+LEG L
+  rotate: false
+  xy: 956, 462
+  size: 54, 125
+  orig: 54, 125
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: true
+  xy: 1012, 470
+  size: 117, 87
+  orig: 117, 87
+  offset: 0, 0
+  index: -1
+Leg R
+  rotate: true
+  xy: 797, 245
+  size: 51, 124
+  orig: 51, 124
+  offset: 0, 0
+  index: -1
+Plath
+  rotate: false
+  xy: 1029, 10
+  size: 174, 57
+  orig: 174, 57
+  offset: 0, 0
+  index: -1
+Shoue L
+  rotate: true
+  xy: 757, 855
+  size: 167, 108
+  orig: 167, 108
+  offset: 0, 0
+  index: -1
+Shoue R
+  rotate: true
+  xy: 917, 696
+  size: 162, 108
+  orig: 162, 108
+  offset: 0, 0
+  index: -1
+Under shirt
+  rotate: false
+  xy: 456, 575
+  size: 110, 85
+  orig: 110, 85
+  offset: 0, 0
+  index: -1
+Whip
+  rotate: true
+  xy: 100, 5
+  size: 237, 225
+  orig: 237, 225
+  offset: 0, 0
+  index: -1
+Whip attact
+  rotate: true
+  xy: 2, 239
+  size: 783, 95
+  orig: 783, 95
+  offset: 0, 0
+  index: -1
+Whip base
+  rotate: false
+  xy: 718, 41
+  size: 114, 201
+  orig: 114, 201
+  offset: 0, 0
+  index: -1
+back hair2
+  rotate: false
+  xy: 327, 14
+  size: 389, 228
+  orig: 389, 228
+  offset: 0, 0
+  index: -1
+bang
+  rotate: false
+  xy: 423, 279
+  size: 215, 294
+  orig: 215, 294
+  offset: 0, 0
+  index: -1
+bang left
+  rotate: false
+  xy: 829, 688
+  size: 86, 165
+  orig: 86, 165
+  offset: 0, 0
+  index: -1
+bang rignt
+  rotate: false
+  xy: 941, 69
+  size: 142, 181
+  orig: 142, 181
+  offset: 0, 0
+  index: -1
+eye L copy
+  rotate: true
+  xy: 719, 244
+  size: 52, 76
+  orig: 52, 76
+  offset: 0, 0
+  index: -1
+eye L copy 2
+  rotate: true
+  xy: 640, 244
+  size: 52, 77
+  orig: 52, 77
+  offset: 0, 0
+  index: -1
+eye bag L
+  rotate: false
+  xy: 941, 2
+  size: 86, 65
+  orig: 86, 65
+  offset: 0, 0
+  index: -1
+eye bag R
+  rotate: false
+  xy: 923, 252
+  size: 98, 75
+  orig: 98, 75
+  offset: 0, 0
+  index: -1
+eye lid L
+  rotate: false
+  xy: 874, 589
+  size: 115, 97
+  orig: 115, 97
+  offset: 0, 0
+  index: -1
+eye lid R
+  rotate: false
+  xy: 991, 589
+  size: 111, 105
+  orig: 111, 105
+  offset: 0, 0
+  index: -1
+eyebrown L
+  rotate: false
+  xy: 1023, 283
+  size: 90, 54
+  orig: 90, 54
+  offset: 0, 0
+  index: -1
+eyebrown R
+  rotate: true
+  xy: 568, 575
+  size: 85, 49
+  orig: 85, 49
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 99, 244
+  size: 329, 322
+  orig: 329, 322
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 834, 8
+  size: 63, 47
+  orig: 63, 47
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 718, 3
+  size: 36, 74
+  orig: 36, 74
+  offset: 0, 0
+  index: -1
+side hair
+  rotate: true
+  xy: 619, 583
+  size: 77, 253
+  orig: 77, 253
+  offset: 0, 0
+  index: -1
+white eye
+  rotate: true
+  xy: 860, 329
+  size: 252, 94
+  orig: 252, 94
+  offset: 0, 0
+  index: -1

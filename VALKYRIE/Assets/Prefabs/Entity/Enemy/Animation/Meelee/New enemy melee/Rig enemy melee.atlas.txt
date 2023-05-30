@@ -1,0 +1,118 @@
+
+Rig enemy melee.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm low L
+  rotate: false
+  xy: 547, 20
+  size: 103, 167
+  orig: 103, 167
+  offset: 0, 0
+  index: -1
+Arm low R
+  rotate: true
+  xy: 768, 101
+  size: 87, 112
+  orig: 87, 112
+  offset: 0, 0
+  index: -1
+Arm up L
+  rotate: false
+  xy: 768, 190
+  size: 88, 118
+  orig: 88, 118
+  offset: 0, 0
+  index: -1
+Arm up R
+  rotate: true
+  xy: 652, 2
+  size: 86, 101
+  orig: 86, 101
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 310, 189
+  size: 237, 249
+  orig: 237, 249
+  offset: 0, 0
+  index: -1
+Foot L
+  rotate: true
+  xy: 794, 326
+  size: 112, 87
+  orig: 112, 87
+  offset: 0, 0
+  index: -1
+Foot R
+  rotate: false
+  xy: 755, 7
+  size: 127, 81
+  orig: 127, 81
+  offset: 0, 0
+  index: -1
+Hammer
+  rotate: false
+  xy: 2, 167
+  size: 306, 855
+  orig: 306, 855
+  offset: 0, 0
+  index: -1
+Hand L
+  rotate: true
+  xy: 417, 18
+  size: 169, 128
+  orig: 169, 128
+  offset: 0, 0
+  index: -1
+Hand R
+  rotate: true
+  xy: 2, 21
+  size: 144, 141
+  orig: 144, 141
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 310, 440
+  size: 582, 537
+  orig: 582, 537
+  offset: 0, 0
+  index: -1
+Hip
+  rotate: true
+  xy: 549, 222
+  size: 216, 114
+  orig: 216, 114
+  offset: 0, 0
+  index: -1
+Leg L
+  rotate: true
+  xy: 665, 310
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1
+Leg R
+  rotate: false
+  xy: 652, 90
+  size: 114, 130
+  orig: 114, 130
+  offset: 0, 0
+  index: -1
+Leg low L
+  rotate: false
+  xy: 145, 22
+  size: 137, 143
+  orig: 137, 143
+  offset: 0, 0
+  index: -1
+Leg low R
+  rotate: false
+  xy: 284, 23
+  size: 131, 142
+  orig: 131, 142
+  offset: 0, 0
+  index: -1
