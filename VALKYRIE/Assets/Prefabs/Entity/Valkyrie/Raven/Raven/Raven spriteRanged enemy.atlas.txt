@@ -1,0 +1,298 @@
+
+Raven sprite.png
+size: 4013,3445
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm bot L
+  rotate: true
+  xy: 2460, 1933
+  size: 488, 705
+  orig: 488, 705
+  offset: 0, 0
+  index: -1
+Arm bot R
+  rotate: false
+  xy: 3167, 1758
+  size: 673, 546
+  orig: 673, 546
+  offset: 0, 0
+  index: -1
+Arm top L
+  rotate: false
+  xy: 2479, 975
+  size: 843, 781
+  orig: 843, 781
+  offset: 0, 0
+  index: -1
+Arm top R
+  rotate: true
+  xy: 2, 1545
+  size: 564, 662
+  orig: 564, 662
+  offset: 0, 0
+  index: -1
+Ellipse 1
+  rotate: false
+  xy: 1749, 2835
+  size: 1753, 281
+  orig: 1753, 281
+  offset: 0, 0
+  index: -1
+Ellipse 2
+  rotate: true
+  xy: 3260, 3118
+  size: 325, 326
+  orig: 327, 328
+  offset: 1, 1
+  index: -1
+Ellipse 2 copy
+  rotate: false
+  xy: 3588, 3118
+  size: 325, 325
+  orig: 327, 328
+  offset: 1, 1
+  index: -1
+Ellipse 3
+  rotate: true
+  xy: 1369, 2862
+  size: 377, 378
+  orig: 379, 380
+  offset: 1, 1
+  index: -1
+Ellipse Leg bot L
+  rotate: false
+  xy: 2632, 3131
+  size: 312, 312
+  orig: 314, 314
+  offset: 1, 1
+  index: -1
+Ellipse Leg bot R
+  rotate: false
+  xy: 2632, 3131
+  size: 312, 312
+  orig: 314, 314
+  offset: 1, 1
+  index: -1
+Ellipse Leg bot L copy
+  rotate: false
+  xy: 2946, 3131
+  size: 312, 312
+  orig: 315, 314
+  offset: 1, 1
+  index: -1
+Eye L bot
+  rotate: false
+  xy: 386, 2920
+  size: 431, 360
+  orig: 431, 360
+  offset: 0, 0
+  index: -1
+Eye R bot
+  rotate: false
+  xy: 2, 2967
+  size: 382, 339
+  orig: 382, 339
+  offset: 0, 0
+  index: -1
+Eye R top
+  rotate: false
+  xy: 1688, 3241
+  size: 318, 202
+  orig: 318, 202
+  offset: 0, 0
+  index: -1
+Eyebrow L
+  rotate: false
+  xy: 2, 3309
+  size: 349, 134
+  orig: 349, 134
+  offset: 0, 0
+  index: -1
+Hand L
+  rotate: false
+  xy: 3476, 2306
+  size: 512, 425
+  orig: 512, 425
+  offset: 0, 0
+  index: -1
+Layer 1
+  rotate: false
+  xy: 353, 3308
+  size: 233, 135
+  orig: 233, 135
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: true
+  xy: 1163, 3281
+  size: 162, 198
+  orig: 162, 198
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: true
+  xy: 588, 3283
+  size: 160, 217
+  orig: 160, 217
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 2338, 2
+  size: 1673, 971
+  orig: 1673, 971
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 1363, 3276
+  size: 323, 167
+  orig: 323, 167
+  offset: 0, 0
+  index: -1
+Leg bot L
+  rotate: true
+  xy: 2701, 2423
+  size: 410, 773
+  orig: 410, 773
+  offset: 0, 0
+  index: -1
+Leg bot R
+  rotate: true
+  xy: 1926, 2426
+  size: 407, 773
+  orig: 407, 773
+  offset: 0, 0
+  index: -1
+Leg top L
+  rotate: true
+  xy: 2, 2111
+  size: 415, 673
+  orig: 415, 673
+  offset: 0, 0
+  index: -1
+Leg top R
+  rotate: true
+  xy: 1231, 2013
+  size: 415, 673
+  orig: 415, 673
+  offset: 0, 0
+  index: -1
+Raven Shield holder
+  rotate: false
+  xy: 819, 2905
+  size: 548, 369
+  orig: 6400, 4917
+  offset: 2409, 1974
+  index: -1
+Side hair L
+  rotate: true
+  xy: 1716, 1173
+  size: 758, 761
+  orig: 758, 761
+  offset: 0, 0
+  index: -1
+Side hair R
+  rotate: true
+  xy: 2008, 3181
+  size: 262, 622
+  orig: 262, 622
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 447
+  size: 821, 1039
+  orig: 821, 1039
+  offset: 0, 0
+  index: -1
+eye L top
+  rotate: false
+  xy: 807, 3282
+  size: 354, 161
+  orig: 354, 161
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 1043, 140
+  size: 1293, 1031
+  orig: 1500, 1031
+  offset: 207, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 1906, 1962
+  size: 552, 462
+  orig: 552, 462
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 677, 2039
+  size: 552, 461
+  orig: 552, 461
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 3504, 2733
+  size: 427, 383
+  orig: 427, 383
+  offset: 0, 0
+  index: -1
+hip
+  rotate: false
+  xy: 2, 2528
+  size: 749, 390
+  orig: 749, 390
+  offset: 0, 0
+  index: -1
+hip cover
+  rotate: false
+  xy: 666, 1270
+  size: 1048, 741
+  orig: 1048, 741
+  offset: 0, 0
+  index: -1
+leg lock L
+  rotate: false
+  xy: 753, 2502
+  size: 585, 401
+  orig: 585, 401
+  offset: 0, 0
+  index: -1
+leg lock R
+  rotate: false
+  xy: 1340, 2430
+  size: 584, 403
+  orig: 584, 403
+  offset: 0, 0
+  index: -1
+
+Raven sprite2.png
+size: 1917,1692
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shield front
+  rotate: false
+  xy: 2, 2
+  size: 1913, 1688
+  orig: 1913, 1688
+  offset: 0, 0
+  index: -1
+
+Raven sprite3.png
+size: 2684,2596
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shield
+  rotate: false
+  xy: 2, 2
+  size: 2680, 2592
+  orig: 2680, 2592
+  offset: 0, 0
+  index: -1

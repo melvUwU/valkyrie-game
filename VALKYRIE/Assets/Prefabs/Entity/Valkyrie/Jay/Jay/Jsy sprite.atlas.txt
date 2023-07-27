@@ -1,0 +1,307 @@
+
+Jsy sprite.png
+size: 3860,3594
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Center leg L copy
+  rotate: false
+  xy: 3723, 1838
+  size: 125, 125
+  orig: 127, 127
+  offset: 1, 1
+  index: -1
+Center leg L copy 2
+  rotate: false
+  xy: 3723, 1838
+  size: 125, 125
+  orig: 127, 127
+  offset: 1, 1
+  index: -1
+Center leg bot R
+  rotate: false
+  xy: 3723, 1838
+  size: 125, 125
+  orig: 127, 127
+  offset: 1, 1
+  index: -1
+Center leg R
+  rotate: false
+  xy: 426, 3
+  size: 125, 125
+  orig: 127, 127
+  offset: 1, 1
+  index: -1
+EYE lid bot L
+  rotate: false
+  xy: 426, 130
+  size: 322, 384
+  orig: 322, 384
+  offset: 0, 0
+  index: -1
+Ellipse 1
+  rotate: false
+  xy: 2197, 44
+  size: 259, 259
+  orig: 261, 261
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy
+  rotate: false
+  xy: 2458, 44
+  size: 259, 259
+  orig: 261, 261
+  offset: 1, 1
+  index: -1
+Eye lid top L
+  rotate: true
+  xy: 3648, 1005
+  size: 352, 177
+  orig: 352, 177
+  offset: 0, 0
+  index: -1
+Eye lid top R
+  rotate: false
+  xy: 1436, 47
+  size: 434, 143
+  orig: 434, 196
+  offset: 0, 0
+  index: -1
+Eye lif bot R
+  rotate: false
+  xy: 2, 95
+  size: 422, 419
+  orig: 422, 419
+  offset: 0, 0
+  index: -1
+Gun
+  rotate: false
+  xy: 2, 2909
+  size: 2583, 683
+  orig: 2583, 683
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 1096, 1022
+  size: 1121, 376
+  orig: 1121, 376
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: true
+  xy: 3682, 2703
+  size: 889, 145
+  orig: 6400, 4917
+  offset: 2664, 937
+  index: -1
+arm low R
+  rotate: false
+  xy: 1084, 201
+  size: 497, 466
+  orig: 497, 466
+  offset: 0, 0
+  index: -1
+arm low l
+  rotate: true
+  xy: 1583, 192
+  size: 475, 461
+  orig: 475, 461
+  offset: 0, 0
+  index: -1
+arm over gun
+  rotate: false
+  xy: 2719, 54
+  size: 376, 249
+  orig: 376, 249
+  offset: 0, 0
+  index: -1
+arm up R
+  rotate: false
+  xy: 2902, 1733
+  size: 443, 359
+  orig: 443, 359
+  offset: 0, 0
+  index: -1
+arm up l
+  rotate: true
+  xy: 3480, 2
+  size: 345, 364
+  orig: 345, 364
+  offset: 0, 0
+  index: -1
+back neck
+  rotate: true
+  xy: 851, 253
+  size: 286, 158
+  orig: 286, 158
+  offset: 0, 0
+  index: -1
+bang
+  rotate: false
+  xy: 3107, 349
+  size: 652, 334
+  orig: 652, 334
+  offset: 0, 0
+  index: -1
+coath
+  rotate: false
+  xy: 2219, 305
+  size: 886, 1157
+  orig: 889, 1157
+  offset: 0, 0
+  index: -1
+eye ball L
+  rotate: false
+  xy: 3682, 2119
+  size: 168, 272
+  orig: 168, 272
+  offset: 0, 0
+  index: -1
+eye ball R
+  rotate: false
+  xy: 3682, 2119
+  size: 168, 272
+  orig: 168, 272
+  offset: 0, 0
+  index: -1
+eye brow R
+  rotate: true
+  xy: 3648, 1359
+  size: 386, 210
+  orig: 386, 215
+  offset: 0, 0
+  index: -1
+eye brow l
+  rotate: true
+  xy: 3682, 2393
+  size: 308, 176
+  orig: 308, 176
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 1520, 1693
+  size: 1214, 975
+  orig: 1316, 975
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: true
+  xy: 3347, 1747
+  size: 345, 374
+  orig: 345, 391
+  offset: 0, 17
+  index: -1
+foot R
+  rotate: true
+  xy: 3107, 2
+  size: 345, 371
+  orig: 345, 391
+  offset: 0, 20
+  index: -1
+fur
+  rotate: false
+  xy: 2, 516
+  size: 847, 422
+  orig: 847, 422
+  offset: 0, 0
+  index: -1
+glass
+  rotate: false
+  xy: 1096, 669
+  size: 1106, 351
+  orig: 1106, 351
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: false
+  xy: 1096, 1400
+  size: 422, 1507
+  orig: 422, 1507
+  offset: 0, 0
+  index: -1
+hair back 2
+  rotate: true
+  xy: 1520, 1464
+  size: 227, 1614
+  orig: 227, 1614
+  offset: 0, 0
+  index: -1
+hair back 3
+  rotate: false
+  xy: 2, 940
+  size: 1092, 1967
+  orig: 1092, 1967
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 2497, 1711
+  size: 403, 381
+  orig: 403, 381
+  offset: 0, 0
+  index: -1
+hand over gun ex
+  rotate: true
+  xy: 851, 541
+  size: 397, 231
+  orig: 397, 231
+  offset: 0, 0
+  index: -1
+hat
+  rotate: true
+  xy: 2587, 2094
+  size: 1498, 1093
+  orig: 1498, 1093
+  offset: 0, 0
+  index: -1
+leg bot L
+  rotate: false
+  xy: 3648, 689
+  size: 148, 314
+  orig: 148, 314
+  offset: 0, 0
+  index: -1
+leg bot R
+  rotate: true
+  xy: 750, 103
+  size: 148, 314
+  orig: 148, 314
+  offset: 0, 0
+  index: -1
+leg up R
+  rotate: false
+  xy: 2046, 299
+  size: 149, 368
+  orig: 149, 368
+  offset: 0, 0
+  index: -1
+leg up l
+  rotate: true
+  xy: 1066, 50
+  size: 149, 368
+  orig: 149, 368
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 2497, 2827
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 3723, 1965
+  size: 126, 152
+  orig: 126, 152
+  offset: 0, 0
+  index: -1
+under body
+  rotate: false
+  xy: 3136, 685
+  size: 510, 1046
+  orig: 510, 1046
+  offset: 0, 0
+  index: -1

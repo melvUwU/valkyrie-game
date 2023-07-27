@@ -256,7 +256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: b66cf7a186d13054989b33a5c90044e4, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -267,7 +267,7 @@ MonoBehaviour:
   initialFlipX: 0
   initialFlipY: 0
   startingAnimation: Idle/animation
-  startingLoop: 1
+  startingLoop: 0
   timeScale: 1
   freeze: 0
   updateWhenInvisible: 3
@@ -354,8 +354,9 @@ MonoBehaviour:
   attackingAnimation: {fileID: 11400000, guid: 277d8bf16fe5e9341bfa1ebbda3d5b1e, type: 2}
   currentState: 
   attackDelay: 1
-  attackDamage: 5
+  attackDamage: 30
   attackTimer: 0
+  cost: 13
 --- !u!33 &7197530153518706369
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -421,7 +422,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7820043291381810714
 RectTransform:
   m_ObjectHideFlags: 0

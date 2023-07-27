@@ -1,0 +1,307 @@
+
+nightingale sprite.png
+size: 4067,1750
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm L
+  rotate: true
+  xy: 3550, 661
+  size: 166, 248
+  orig: 166, 248
+  offset: 0, 0
+  index: -1
+ArmR
+  rotate: false
+  xy: 3265, 804
+  size: 161, 267
+  orig: 161, 267
+  offset: 0, 0
+  index: -1
+Bang
+  rotate: true
+  xy: 2897, 1073
+  size: 675, 660
+  orig: 675, 660
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 3559, 1173
+  size: 505, 575
+  orig: 505, 577
+  offset: 0, 2
+  index: -1
+Center arm L
+  rotate: false
+  xy: 2754, 790
+  size: 81, 81
+  orig: 83, 83
+  offset: 1, 1
+  index: -1
+Center arm R
+  rotate: false
+  xy: 3559, 1087
+  size: 83, 84
+  orig: 85, 86
+  offset: 1, 1
+  index: -1
+Center leg L
+  rotate: false
+  xy: 3847, 441
+  size: 125, 125
+  orig: 127, 127
+  offset: 1, 1
+  index: -1
+Center leg R
+  rotate: false
+  xy: 3847, 441
+  size: 125, 125
+  orig: 127, 127
+  offset: 1, 1
+  index: -1
+Ellipse 1
+  rotate: true
+  xy: 2754, 873
+  size: 875, 141
+  orig: 875, 141
+  offset: 0, 0
+  index: -1
+Eye Lid top R
+  rotate: true
+  xy: 3248, 454
+  size: 343, 120
+  orig: 343, 120
+  offset: 0, 0
+  index: -1
+Eye Lid top R copy
+  rotate: true
+  xy: 2442, 5
+  size: 380, 85
+  orig: 380, 85
+  offset: 0, 0
+  index: -1
+Eye lid low R
+  rotate: true
+  xy: 904, 2
+  size: 371, 336
+  orig: 371, 336
+  offset: 0, 0
+  index: -1
+Eye lid low R copy
+  rotate: false
+  xy: 2529, 34
+  size: 412, 351
+  orig: 412, 351
+  offset: 0, 0
+  index: -1
+Eyebrow L
+  rotate: true
+  xy: 3978, 385
+  size: 307, 53
+  orig: 307, 53
+  offset: 0, 0
+  index: -1
+Eyebrown R
+  rotate: true
+  xy: 3197, 453
+  size: 344, 49
+  orig: 344, 49
+  offset: 0, 0
+  index: -1
+Face
+  rotate: true
+  xy: 798, 375
+  size: 1373, 1246
+  orig: 1373, 1246
+  offset: 0, 0
+  index: -1
+Finger 5
+  rotate: true
+  xy: 2837, 791
+  size: 80, 108
+  orig: 80, 108
+  offset: 0, 0
+  index: -1
+Finger with weapon
+  rotate: true
+  xy: 672, 17
+  size: 276, 230
+  orig: 276, 230
+  offset: 0, 0
+  index: -1
+Finger1
+  rotate: true
+  xy: 3847, 1016
+  size: 155, 218
+  orig: 155, 218
+  offset: 0, 0
+  index: -1
+Finger2
+  rotate: true
+  xy: 3686, 503
+  size: 156, 151
+  orig: 156, 151
+  offset: 0, 0
+  index: -1
+Finger3
+  rotate: true
+  xy: 3847, 568
+  size: 124, 129
+  orig: 124, 129
+  offset: 0, 0
+  index: -1
+Finger4
+  rotate: false
+  xy: 3847, 321
+  size: 120, 118
+  orig: 120, 118
+  offset: 0, 0
+  index: -1
+Foot L
+  rotate: true
+  xy: 2046, 380
+  size: 329, 302
+  orig: 329, 302
+  offset: 0, 0
+  index: -1
+Foot R
+  rotate: false
+  xy: 2947, 799
+  size: 316, 272
+  orig: 316, 272
+  offset: 0, 0
+  index: -1
+Hair side L
+  rotate: false
+  xy: 2446, 789
+  size: 306, 959
+  orig: 306, 959
+  offset: 0, 0
+  index: -1
+Hair side R
+  rotate: false
+  xy: 2046, 711
+  size: 398, 1037
+  orig: 398, 1037
+  offset: 0, 0
+  index: -1
+Hand R
+  rotate: true
+  xy: 1449, 13
+  size: 360, 435
+  orig: 360, 435
+  offset: 0, 0
+  index: -1
+Hand with weapon
+  rotate: false
+  xy: 2901, 399
+  size: 294, 390
+  orig: 294, 390
+  offset: 0, 0
+  index: -1
+Leg Low L
+  rotate: false
+  xy: 2943, 13
+  size: 259, 384
+  orig: 259, 385
+  offset: 0, 1
+  index: -1
+Leg low R
+  rotate: true
+  xy: 3428, 829
+  size: 242, 411
+  orig: 242, 411
+  offset: 0, 0
+  index: -1
+Leg up L
+  rotate: false
+  xy: 3847, 694
+  size: 201, 320
+  orig: 201, 320
+  offset: 0, 0
+  index: -1
+Leg up R
+  rotate: false
+  xy: 3370, 481
+  size: 178, 321
+  orig: 178, 321
+  offset: 0, 0
+  index: -1
+Leggins L
+  rotate: true
+  xy: 2350, 387
+  size: 322, 318
+  orig: 322, 318
+  offset: 0, 0
+  index: -1
+Leggins R
+  rotate: true
+  xy: 183, 3
+  size: 290, 318
+  orig: 290, 318
+  offset: 0, 0
+  index: -1
+Pony tail
+  rotate: true
+  xy: 3204, 31
+  size: 420, 641
+  orig: 420, 641
+  offset: 0, 0
+  index: -1
+Shoulder L
+  rotate: false
+  xy: 1242, 5
+  size: 205, 368
+  orig: 225, 462
+  offset: 19, 93
+  index: -1
+Shoulder R
+  rotate: false
+  xy: 2670, 387
+  size: 229, 400
+  orig: 281, 400
+  offset: 0, 0
+  index: -1
+bouth
+  rotate: true
+  xy: 798, 312
+  size: 61, 40
+  orig: 61, 40
+  offset: 0, 0
+  index: -1
+eye L
+  rotate: false
+  xy: 2, 2
+  size: 179, 291
+  orig: 179, 291
+  offset: 0, 0
+  index: -1
+eye R
+  rotate: false
+  xy: 503, 4
+  size: 167, 289
+  orig: 167, 289
+  offset: 0, 0
+  index: -1
+hip
+  rotate: false
+  xy: 1886, 18
+  size: 554, 355
+  orig: 554, 355
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 3550, 501
+  size: 134, 158
+  orig: 134, 158
+  offset: 0, 0
+  index: -1
+sword
+  rotate: true
+  xy: 2, 295
+  size: 1453, 794
+  orig: 1453, 794
+  offset: 0, 0
+  index: -1

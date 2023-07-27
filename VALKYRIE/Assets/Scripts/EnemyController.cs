@@ -68,6 +68,7 @@ public class EnemyController : MonoBehaviour
         if (wavepointIndex >= Waypoints.points.Length - 1)
         {
             Destroy(gameObject);
+            ScoreManager.lifePoints--;
             return;
         }
         wavepointIndex++;
@@ -93,6 +94,7 @@ public class EnemyController : MonoBehaviour
         SetCharacterState("Dead");
         yield return new WaitForSeconds(0.3f);
         Destroy(gameObject);
+        ScoreManager.enemyKill++;
     }
 
     //initialize enemy attacking system

@@ -18,8 +18,13 @@ public class Guard : MonoBehaviour
 
     public float attackTimer;
 
+    [SerializeField]
+    public static int deployCost;
+    public int cost;
+
     private void Start()
     {
+        deployCost = cost;
         //set the current state of the character
         currentState = "Idle";
         SetCharacterState(currentState);

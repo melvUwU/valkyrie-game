@@ -11,14 +11,14 @@ public class ObjectCard : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
     public Canvas canvas;
     private GameObject objDragInstance;
     private GameManager gameManager;
-    public int dpCost;
+    private int dpCost;
     
     public void Start()
     {
         //set game manager indtance
         gameManager = GameManager.Instance;
         //set character's cost
-        dpCost = 13;
+        dpCost = Guard.deployCost;
     }
 
     //Event when dragging the object with mouse
@@ -40,6 +40,7 @@ public class ObjectCard : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
 
         //set draggingObj of gameManager to objDragInstance
         gameManager.draggingObj = objDragInstance;
+        GameManager.unitLimit--;
     }
 
     //Event when releasing the mouse button

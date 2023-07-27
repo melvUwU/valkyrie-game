@@ -11,11 +11,12 @@ public class GameManager : MonoBehaviour
 
     public int deployCost;
 
-
+    public static int unitLimit;
     public static GameManager Instance;
 
     public void Awake()
     {
+        unitLimit = 9;
         //initialise Instance variable to this GameManager
         Instance = this;
     }
