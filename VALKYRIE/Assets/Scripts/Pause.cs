@@ -5,14 +5,29 @@ using UnityEngine;
 public class Pause : MonoBehaviour
 {
     public GameObject Panel;
-    bool visible = false;
+    public static bool gameIsPaused = false;
+
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && Button.isPaused != true)
         {
-            visible = !visible;
-            Panel.SetActive(visible);
+            gameIsPaused = !gameIsPaused;
+            PauseGame();
         }
     }
+    public void PauseGame()
+    {
+        if (gameIsPaused)
+        {
+            Time.timeScale = 0f;
+            Panel.SetActive(true);
+        }
+        else
+        {
+            Time.timeScale = 1;
+            Panel.SetActive(false);
+        }
+    }
+
 }

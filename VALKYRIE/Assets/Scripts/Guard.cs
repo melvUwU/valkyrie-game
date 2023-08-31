@@ -5,6 +5,8 @@ using Spine.Unity;
 
 public class Guard : MonoBehaviour
 {
+    public List<GameObject> blockedEnemies = new List<GameObject>();
+
     public float blockRange = 1f;
     public int maxBlockedEnemies = 1;
 
@@ -19,15 +21,14 @@ public class Guard : MonoBehaviour
     public float attackTimer;
 
     [SerializeField]
-    public static int deployCost;
-    public int cost;
+    public int deployCost;
+    private GameManager gameManager;
 
     private void Start()
     {
-        deployCost = cost;
+        gameManager = GameManager.Instance;
         //set the current state of the character
-        currentState = "Idle";
-        SetCharacterState(currentState);
+        SetCharacterState("Idle");
     }
 
     private void Update()
@@ -36,37 +37,37 @@ public class Guard : MonoBehaviour
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         //set number of blocked enemies to default
         int numBlockedEnemies = 0;
+
         foreach (GameObject enemy in enemies)
         {
-            Vector3 direction = enemy.transform.position - transform.position;
-
             //if the enemy magnitude is less or eqaul to block range, block that enemy
-            if (direction.magnitude <= blockRange)
+            if (IsCollidingWithEnemy(enemy) && !blockedEnemies.Contains(enemy))
             {
-                Debug.Log("Block");
-                numBlockedEnemies++;
-                //if number of blocked enemies is less or eqaul to max blockeed enemies, attack that enemy
-                if (numBlockedEnemies <= maxBlockedEnemies)
+                if (blockedEnemies.Count < maxBlockedEnemies)
                 {
+                    blockedEnemies.Add(enemy);
                     enemy.GetComponent<EnemyController>().SetBlock(true);
+                    SetCharacterState("Attack");
+                    currentState = "Attack";
                     Attack(enemy);
+                    blockedEnemies.RemoveAt(numBlockedEnemies);
                 }
             }
             else
             {
                 enemy.GetComponent<EnemyController>().SetBlock(false);
             }
+            blockedEnemies.RemoveAll(enemy => !IsCollidingWithEnemy(enemy));
         }
-        //if number of blocked enemy is greater than 0, set the character state to "Attack"
-        if (numBlockedEnemies > 0)
-        {
-            SetCharacterState("Attack");
-        }
-        else
+
+        // After checking all enemies, set the state to "Idle" if no enemies are blocking
+        if (blockedEnemies.Count == 0)
         {
             SetCharacterState("Idle");
+            currentState = "Idle";
         }
     }
+
     //initialize attack system
     private void Attack(GameObject enemy)
     {
@@ -97,6 +98,7 @@ public class Guard : MonoBehaviour
                 }
                 SetAnimation(idleAnimation, true, 1f);
                 currentState = "Idle";
+                Debug.Log("Set to idle");
                 break;
             case "Attack":
                 if (currentState == "Attack")
@@ -105,7 +107,17 @@ public class Guard : MonoBehaviour
                 }
                 SetAnimation(attackingAnimation, true, 1f);
                 currentState = "Attack";
+                Debug.Log("Set to Attack");
                 break;
         }
+    }
+
+    private bool IsCollidingWithEnemy(GameObject enemy)
+    {
+        Collider2D guardCollider = GetComponent<Collider2D>();
+        Collider2D enemyCollider = enemy.GetComponent<Collider2D>();
+
+        return guardCollider.bounds.Intersects(enemyCollider.bounds);
+
     }
 }

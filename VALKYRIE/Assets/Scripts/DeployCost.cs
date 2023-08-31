@@ -28,7 +28,7 @@ public class DeployCost : MonoBehaviour
             currentCost++;
             costText.text = currentCost.ToString();
             //reset timer
-            timer = 0.0f;
+            timer = 0;
         }
     }
 }

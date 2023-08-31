@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Gamplay Part 1.unity
     guid: a6216b07227521e4eb634b19d45d0d35
   - enabled: 1
+    path: Assets/Scenes/Gamplay Part 2.unity
+    guid: a713171da7921da43b3976b616401bbb
+  - enabled: 1
     path: Assets/Scenes/Squad.unity
     guid: b0dcc7883881ab242a09981389e6d0ed
   - enabled: 1

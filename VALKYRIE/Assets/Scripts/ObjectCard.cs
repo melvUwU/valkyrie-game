@@ -11,14 +11,21 @@ public class ObjectCard : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
     public Canvas canvas;
     private GameObject objDragInstance;
     private GameManager gameManager;
-    private int dpCost;
+    public Valkyrie valkyrie;
+    public static int dpCost;
+    public static bool isDeployed;
     
     public void Start()
     {
         //set game manager indtance
         gameManager = GameManager.Instance;
         //set character's cost
-        dpCost = Guard.deployCost;
+        //guard = GetComponent<Guard>();
+
+        if (valkyrie == null)
+        {
+            Debug.LogError("ObjectCard does not have a Valkyrie component!");
+        }
     }
 
     //Event when dragging the object with mouse
@@ -40,14 +47,19 @@ public class ObjectCard : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoi
 
         //set draggingObj of gameManager to objDragInstance
         gameManager.draggingObj = objDragInstance;
-        GameManager.unitLimit--;
+        
     }
 
     //Event when releasing the mouse button
     public void OnPointerUp(PointerEventData eventData)
     {
+        if (valkyrie != null && dpCost <= DeployCost.currentCost)
+        {
+            gameManager.Deploy(valkyrie.deployCost);
+            isDeployed = true;
+            
+        }
         //deploy the character, cost the dpCosts
-        gameManager.Deploy(dpCost);
         gameManager.draggingObj = null;
         //destroy thr dragging game object
         Destroy(objDragInstance);

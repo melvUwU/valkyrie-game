@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3e95a05e4c9774397eeeb7bdee8ccb, type: 3}
   m_Name: Dead
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: fd7686ff95b776845b688b9dc1cd44db, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: 994c77f558a6b3c468a6addff73a4583, type: 2}
   animationName: Dead

@@ -8,7 +8,7 @@ public class ObjectContainer : MonoBehaviour
     public bool isFull;
     public GameManager gameManager;
     public Image backgroundImage;
-
+    public EnemySpawner spawnPoint;
 
 
     public void Start()

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6215658711363953222}
   - component: {fileID: 4585356554450903676}
   - component: {fileID: -703216868519968110}
+  - component: {fileID: 862238710313522415}
   m_Layer: 6
   m_Name: FinchDrag
   m_TagString: Untagged
@@ -139,3 +140,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   card: {fileID: 2970358360832674301, guid: 5f3376264abddd14e96e3debf9660257, type: 3}
+--- !u!114 &862238710313522415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755996835625808490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6790d2d97ef35d4fa064a3a41b0768f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deployCost: 13

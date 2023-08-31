@@ -8,8 +8,9 @@ public class GameManager : MonoBehaviour
     public GameObject draggingObj;
     public GameObject currentContainer;
     public Text costText;
+    public Text unitLimitText;
 
-    public int deployCost;
+    private Valkyrie currentValkyrie;
 
     public static int unitLimit;
     public static GameManager Instance;
@@ -17,36 +18,48 @@ public class GameManager : MonoBehaviour
     public void Awake()
     {
         unitLimit = 9;
-        //initialise Instance variable to this GameManager
         Instance = this;
     }
     private void Update()
     {
-        //set the dpCost to start at current cost
-        deployCost = DeployCost.currentCost;
+        // Check if draggingObj is valid and has a Guard component
+        if (draggingObj != null)
+        {
+            currentValkyrie = draggingObj.GetComponent<Valkyrie>();
+            if (currentValkyrie == null)
+            {
+                Debug.LogError("Dragging object does not have a Valkyrie component!");
+            }
+        }
+        else
+        {
+            currentValkyrie = null;
+        }
     }
     
     //Deploying a character
-    public void Deploy(int x)
+    public void Deploy(int dp)
     {
         //check if draggingObj and currentContainer is valided
         if (draggingObj != null && currentContainer != null)
         {
-            //player cannot deploy the character if dpCost < x
-            if (deployCost < x)
+            if (currentValkyrie.deployCost <= DeployCost.currentCost) // Compare with DeployCost.currentCost
+            {
+                Instantiate(draggingObj.GetComponent<ObjectDragging>().card.objGame, currentContainer.transform);
+                currentContainer.GetComponent<ObjectContainer>().isFull = true;
+
+                // Deduct the correct cost, which is 'currentGuard.deployCost'
+                DeployCost.currentCost -= currentValkyrie.deployCost;
+
+                unitLimit--;
+                // Show the current cost text
+                unitLimitText.text = unitLimit.ToString();
+            }
+            else
             {
                 Debug.Log("Not enough deploy cost!");
-                return;
             }
-            //if player have enough cost, deploy the character at the position of that current container
-            Instantiate(draggingObj.GetComponent<ObjectDragging>().card.objGame, currentContainer.transform);
-            //the taken container is full, so player cannot deploy another character on the same container
-            currentContainer.GetComponent<ObjectContainer>().isFull = true;
-
-            //dpCost minus by 13 according to the character cost
-            DeployCost.currentCost -= 13;
-            //show the current cost text
-            costText.text = deployCost.ToString();
         }
     }
+
 }

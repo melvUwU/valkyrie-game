@@ -958,6 +958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20adc9721a0f8f4d95572dd7a86cdc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 0}
 --- !u!1 &713173735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,7 +1956,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Gamplay
+          m_StringArgument: Gamplay Part 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1482737477
@@ -2008,6 +2009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20adc9721a0f8f4d95572dd7a86cdc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 0}
 --- !u!1001 &1542708772
 PrefabInstance:
   m_ObjectHideFlags: 0
