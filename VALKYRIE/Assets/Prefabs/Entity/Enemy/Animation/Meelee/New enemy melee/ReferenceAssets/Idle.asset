@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3e95a05e4c9774397eeeb7bdee8ccb, type: 3}
   m_Name: Idle
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: e633abe0697489448a33e3a89a3a6e0c, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: b049191e970823e4db0a8ee33961bdc5, type: 2}
   animationName: Idle

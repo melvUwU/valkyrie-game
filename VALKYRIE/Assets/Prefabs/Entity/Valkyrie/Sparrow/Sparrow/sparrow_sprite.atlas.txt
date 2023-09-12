@@ -1,0 +1,279 @@
+
+sparrow_sprite.png
+size: 3563,2320
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm bot L
+  rotate: true
+  xy: 3306, 1256
+  size: 240, 241
+  orig: 240, 241
+  offset: 0, 0
+  index: -1
+Arm bot R
+  rotate: true
+  xy: 2875, 829
+  size: 194, 273
+  orig: 194, 273
+  offset: 0, 0
+  index: -1
+Arm top L
+  rotate: true
+  xy: 3306, 1587
+  size: 244, 255
+  orig: 244, 255
+  offset: 0, 0
+  index: -1
+Arm top R
+  rotate: true
+  xy: 657, 2
+  size: 211, 288
+  orig: 211, 288
+  offset: 0, 0
+  index: -1
+Bag R
+  rotate: false
+  xy: 2573, 985
+  size: 250, 443
+  orig: 250, 443
+  offset: 0, 0
+  index: -1
+Ellipse 8
+  rotate: true
+  xy: 2062, 272
+  size: 107, 108
+  orig: 109, 110
+  offset: 1, 1
+  index: -1
+Eye L
+  rotate: true
+  xy: 1457, 15
+  size: 199, 344
+  orig: 199, 344
+  offset: 0, 0
+  index: -1
+Eye R
+  rotate: true
+  xy: 2875, 393
+  size: 190, 320
+  orig: 190, 320
+  offset: 0, 0
+  index: -1
+Eye lid L
+  rotate: true
+  xy: 2573, 1430
+  size: 477, 406
+  orig: 477, 406
+  offset: 0, 0
+  index: -1
+Foot L
+  rotate: false
+  xy: 2469, 381
+  size: 404, 557
+  orig: 404, 557
+  offset: 0, 0
+  index: -1
+Foot R
+  rotate: false
+  xy: 2062, 381
+  size: 405, 557
+  orig: 405, 557
+  offset: 0, 0
+  index: -1
+Hand L
+  rotate: false
+  xy: 2642, 26
+  size: 352, 353
+  orig: 352, 353
+  offset: 0, 0
+  index: -1
+Hand R
+  rotate: false
+  xy: 2981, 1436
+  size: 323, 395
+  orig: 323, 395
+  offset: 0, 0
+  index: -1
+Layer 15
+  rotate: true
+  xy: 3197, 304
+  size: 279, 320
+  orig: 279, 320
+  offset: 0, 0
+  index: -1
+Leg bot L
+  rotate: true
+  xy: 420, 15
+  size: 168, 235
+  orig: 168, 235
+  offset: 0, 0
+  index: -1
+Leg bot R
+  rotate: false
+  xy: 2875, 592
+  size: 168, 235
+  orig: 168, 235
+  offset: 0, 0
+  index: -1
+Leg ex bot
+  rotate: true
+  xy: 2, 9
+  size: 174, 207
+  orig: 174, 207
+  offset: 0, 0
+  index: -1
+Leg ex bot R
+  rotate: true
+  xy: 211, 9
+  size: 174, 207
+  orig: 174, 207
+  offset: 0, 0
+  index: -1
+Leg ex top
+  rotate: false
+  xy: 1803, 9
+  size: 197, 220
+  orig: 197, 220
+  offset: 0, 0
+  index: -1
+Leg ex top R
+  rotate: false
+  xy: 2002, 9
+  size: 197, 220
+  orig: 197, 220
+  offset: 0, 0
+  index: -1
+Leg top L
+  rotate: false
+  xy: 2201, 15
+  size: 219, 364
+  orig: 219, 364
+  offset: 0, 0
+  index: -1
+Leg top R
+  rotate: false
+  xy: 2422, 15
+  size: 218, 364
+  orig: 218, 364
+  offset: 0, 0
+  index: -1
+bag
+  rotate: false
+  xy: 2, 925
+  size: 1197, 1393
+  orig: 1197, 1393
+  offset: 0, 0
+  index: -1
+bag L
+  rotate: true
+  xy: 3150, 585
+  size: 277, 331
+  orig: 277, 331
+  offset: 0, 0
+  index: -1
+bang ex
+  rotate: true
+  xy: 2573, 1909
+  size: 409, 413
+  orig: 409, 413
+  offset: 0, 0
+  index: -1
+bang mid
+  rotate: false
+  xy: 2996, 1833
+  size: 511, 485
+  orig: 511, 485
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 185
+  size: 480, 738
+  orig: 480, 738
+  offset: 0, 0
+  index: -1
+bot mouth
+  rotate: false
+  xy: 1207, 11
+  size: 248, 203
+  orig: 248, 203
+  offset: 0, 0
+  index: -1
+box
+  rotate: true
+  xy: 1010, 216
+  size: 707, 524
+  orig: 707, 524
+  offset: 0, 0
+  index: -1
+box 2
+  rotate: true
+  xy: 1536, 231
+  size: 707, 524
+  orig: 707, 524
+  offset: 0, 0
+  index: -1
+box 3
+  rotate: true
+  xy: 484, 215
+  size: 708, 524
+  orig: 708, 524
+  offset: 0, 0
+  index: -1
+eye brow L
+  rotate: true
+  xy: 3509, 1870
+  size: 251, 45
+  orig: 251, 45
+  offset: 0, 0
+  index: -1
+eye brow R
+  rotate: true
+  xy: 3509, 2123
+  size: 195, 49
+  orig: 195, 49
+  offset: 0, 0
+  index: -1
+eye lid R
+  rotate: false
+  xy: 3151, 864
+  size: 394, 390
+  orig: 394, 390
+  offset: 0, 0
+  index: -1
+hair ex
+  rotate: false
+  xy: 2996, 5
+  size: 306, 297
+  orig: 306, 297
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1201, 940
+  size: 1378, 1370
+  orig: 1378, 1370
+  offset: 0, 0
+  index: -1
+pony ail
+  rotate: false
+  xy: 947, 3
+  size: 258, 210
+  orig: 258, 210
+  offset: 0, 0
+  index: -1
+skirt
+  rotate: true
+  xy: 2825, 1025
+  size: 403, 324
+  orig: 403, 324
+  offset: 0, 0
+  index: -1
+top mouth
+  rotate: false
+  xy: 3306, 1498
+  size: 245, 87
+  orig: 245, 87
+  offset: 0, 0
+  index: -1

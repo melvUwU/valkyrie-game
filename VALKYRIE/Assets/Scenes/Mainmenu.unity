@@ -142,7 +142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &61364806
 RectTransform:
   m_ObjectHideFlags: 0
@@ -270,6 +270,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
+  resumeButton: {fileID: 0}
+  pauseButton: {fileID: 0}
+  exit: {fileID: 0}
 --- !u!1 &102411139
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,6 +284,7 @@ GameObject:
   - component: {fileID: 102411142}
   - component: {fileID: 102411141}
   - component: {fileID: 102411140}
+  - component: {fileID: 102411143}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -354,6 +358,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &102411143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102411139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0182a43d6153a6a42974cf3f23d85c21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScene: 
+  scenesToReset:
+  - Gamplay Part 1
+  - Gamplay Part 2
+  - Gamplay Part 3
+  - Gamplay Part 4
+  - Gamplay Part 5
 --- !u!1 &112069760
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +481,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 342.7, y: 99}
+  m_AnchoredPosition: {x: 342.7, y: 115}
   m_SizeDelta: {x: 227, y: 72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &261072076
@@ -556,6 +579,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
+  resumeButton: {fileID: 0}
+  pauseButton: {fileID: 0}
+  exit: {fileID: 0}
 --- !u!1 &422922601
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,7 +619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -162.02003, y: 90}
+  m_AnchoredPosition: {x: -162.02003, y: 57.500004}
   m_SizeDelta: {x: 603.65, y: 211}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &422922603
@@ -703,6 +729,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
+  resumeButton: {fileID: 0}
+  pauseButton: {fileID: 0}
+  exit: {fileID: 0}
 --- !u!1001 &550289710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -960,7 +989,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -126, y: -16.979}
+  m_AnchoredPosition: {x: -126, y: -49.478996}
   m_SizeDelta: {x: 477, y: 73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1444549369
@@ -1070,6 +1099,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
+  resumeButton: {fileID: 0}
+  pauseButton: {fileID: 0}
+  exit: {fileID: 0}
 --- !u!1 &1504884395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1201,7 +1233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 207.06, y: 99}
+  m_AnchoredPosition: {x: 207.06, y: 115}
   m_SizeDelta: {x: 227, y: 72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1700873169
@@ -1299,6 +1331,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
+  resumeButton: {fileID: 0}
+  pauseButton: {fileID: 0}
+  exit: {fileID: 0}
 --- !u!4 &1900166379 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6615075810401145596, guid: 5a3a7d09083e8414f9bdf840124e959b, type: 3}

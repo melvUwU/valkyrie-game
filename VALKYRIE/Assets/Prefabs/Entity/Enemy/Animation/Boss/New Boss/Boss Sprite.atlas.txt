@@ -1,0 +1,284 @@
+
+Boss Sprite.png
+size: 4064,3850
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 7
+  rotate: false
+  xy: 1277, 2427
+  size: 700, 700
+  orig: 702, 702
+  offset: 1, 1
+  index: -1
+Ellipse 8
+  rotate: true
+  xy: 2, 3252
+  size: 463, 464
+  orig: 465, 466
+  offset: 1, 1
+  index: -1
+Ellipse 8 copy
+  rotate: true
+  xy: 2, 3252
+  size: 463, 464
+  orig: 465, 466
+  offset: 1, 1
+  index: -1
+Foot L
+  rotate: false
+  xy: 1640, 3129
+  size: 638, 500
+  orig: 638, 500
+  offset: 0, 0
+  index: -1
+Foot R
+  rotate: false
+  xy: 1033, 3195
+  size: 605, 471
+  orig: 605, 471
+  offset: 0, 0
+  index: -1
+Front hair
+  rotate: false
+  xy: 946, 818
+  size: 1319, 720
+  orig: 1362, 720
+  offset: 43, 0
+  index: -1
+Hip ex
+  rotate: true
+  xy: 2280, 2945
+  size: 502, 806
+  orig: 502, 806
+  offset: 0, 0
+  index: -1
+Iris L
+  rotate: true
+  xy: 1055, 3668
+  size: 180, 296
+  orig: 180, 296
+  offset: 0, 0
+  index: -1
+Iris R
+  rotate: true
+  xy: 1353, 3668
+  size: 180, 296
+  orig: 180, 296
+  offset: 0, 0
+  index: -1
+Leg bot R
+  rotate: true
+  xy: 2267, 660
+  size: 780, 1403
+  orig: 780, 1403
+  offset: 0, 0
+  index: -1
+Leg top R
+  rotate: true
+  xy: 1005, 1582
+  size: 843, 875
+  orig: 843, 908
+  offset: 0, 0
+  index: -1
+Leg topL
+  rotate: true
+  xy: 2, 1051
+  size: 877, 942
+  orig: 877, 942
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 2357, 3449
+  size: 1013, 399
+  orig: 6400, 4917
+  offset: 2593, 837
+  index: -1
+Shoulder L ex
+  rotate: false
+  xy: 2, 2685
+  size: 682, 534
+  orig: 685, 534
+  offset: 3, 0
+  index: -1
+Shoulder R ex
+  rotate: false
+  xy: 3088, 2901
+  size: 673, 522
+  orig: 673, 522
+  offset: 0, 0
+  index: -1
+arm L
+  rotate: false
+  xy: 468, 3221
+  size: 563, 464
+  orig: 563, 464
+  offset: 0, 0
+  index: -1
+arm bot L
+  rotate: true
+  xy: 2, 2
+  size: 814, 1242
+  orig: 814, 1242
+  offset: 0, 0
+  index: -1
+arm bot R
+  rotate: true
+  xy: 2885, 1442
+  size: 814, 1177
+  orig: 814, 1177
+  offset: 0, 0
+  index: -1
+arm top L
+  rotate: true
+  xy: 2, 1930
+  size: 716, 1001
+  orig: 716, 1001
+  offset: 0, 0
+  index: -1
+arm top R
+  rotate: true
+  xy: 1882, 1540
+  size: 716, 1001
+  orig: 716, 1001
+  offset: 0, 0
+  index: -1
+eye R
+  rotate: true
+  xy: 3372, 3425
+  size: 423, 522
+  orig: 423, 522
+  offset: 0, 0
+  index: -1
+eye l
+  rotate: false
+  xy: 686, 2648
+  size: 589, 545
+  orig: 589, 545
+  offset: 0, 0
+  index: -1
+eyebrown L
+  rotate: false
+  xy: 1651, 3659
+  size: 381, 189
+  orig: 381, 189
+  offset: 0, 0
+  index: -1
+eyebrrown R
+  rotate: false
+  xy: 2034, 3631
+  size: 321, 217
+  orig: 321, 217
+  offset: 0, 0
+  index: -1
+hip
+  rotate: false
+  xy: 1979, 2258
+  size: 1672, 641
+  orig: 1672, 641
+  offset: 0, 0
+  index: -1
+moustache L
+  rotate: false
+  xy: 716, 3687
+  size: 337, 161
+  orig: 337, 161
+  offset: 0, 0
+  index: -1
+moustache R
+  rotate: false
+  xy: 400, 3717
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 2, 3787
+  size: 396, 61
+  orig: 396, 61
+  offset: 0, 0
+  index: -1
+
+Boss Sprite2.png
+size: 3613,3745
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shround R
+  rotate: true
+  xy: 2, 143
+  size: 1905, 1346
+  orig: 1905, 1346
+  offset: 0, 0
+  index: -1
+Sword
+  rotate: true
+  xy: 2594, 2
+  size: 2417, 1017
+  orig: 2417, 1017
+  offset: 0, 0
+  index: -1
+back hair
+  rotate: false
+  xy: 2, 2050
+  size: 1864, 1693
+  orig: 1864, 1693
+  offset: 0, 0
+  index: -1
+beard
+  rotate: false
+  xy: 1350, 396
+  size: 1242, 1652
+  orig: 1242, 1652
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 1868, 2421
+  size: 1638, 1322
+  orig: 1638, 1322
+  offset: 0, 0
+  index: -1
+
+Boss Sprite3.png
+size: 3915,2435
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Leg bot L
+  rotate: true
+  xy: 2, 61
+  size: 907, 1404
+  orig: 907, 1404
+  offset: 0, 0
+  index: -1
+Shoulder L
+  rotate: false
+  xy: 2628, 1177
+  size: 1285, 1256
+  orig: 1285, 1256
+  offset: 0, 0
+  index: -1
+Shoulder R
+  rotate: true
+  xy: 2628, 2
+  size: 1173, 1258
+  orig: 1173, 1258
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 1316, 974
+  size: 1459, 1310
+  orig: 1459, 1310
+  offset: 0, 0
+  index: -1
+shround L
+  rotate: true
+  xy: 2, 970
+  size: 1463, 1312
+  orig: 1463, 1312
+  offset: 0, 0
+  index: -1

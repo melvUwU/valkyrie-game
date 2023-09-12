@@ -1,0 +1,132 @@
+
+enemy melee sprite.png
+size: 4028,2842
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2819, 1590
+  size: 821, 811
+  orig: 1006, 811
+  offset: 185, 0
+  index: -1
+Ellipse 1 copy
+  rotate: true
+  xy: 2819, 70
+  size: 1422, 247
+  orig: 1422, 247
+  offset: 0, 0
+  index: -1
+Foot L
+  rotate: false
+  xy: 3642, 1869
+  size: 383, 373
+  orig: 383, 373
+  offset: 0, 0
+  index: -1
+Foot R
+  rotate: false
+  xy: 3642, 1494
+  size: 383, 373
+  orig: 383, 373
+  offset: 0, 0
+  index: -1
+Hip
+  rotate: false
+  xy: 2819, 2403
+  size: 846, 437
+  orig: 846, 437
+  offset: 0, 0
+  index: -1
+Leg bot L
+  rotate: false
+  xy: 1951, 45
+  size: 432, 633
+  orig: 432, 633
+  offset: 0, 0
+  index: -1
+Leg bot R
+  rotate: false
+  xy: 2385, 45
+  size: 432, 633
+  orig: 432, 633
+  offset: 0, 0
+  index: -1
+Leg top L
+  rotate: false
+  xy: 967, 10
+  size: 490, 668
+  orig: 490, 668
+  offset: 0, 0
+  index: -1
+Leg top R
+  rotate: false
+  xy: 1459, 10
+  size: 490, 668
+  orig: 490, 668
+  offset: 0, 0
+  index: -1
+arm R ex
+  rotate: true
+  xy: 3667, 2244
+  size: 291, 299
+  orig: 291, 299
+  offset: 0, 0
+  index: -1
+arm bot L
+  rotate: false
+  xy: 3667, 2537
+  size: 358, 303
+  orig: 358, 303
+  offset: 0, 0
+  index: -1
+arm bot R
+  rotate: false
+  xy: 3590, 122
+  size: 436, 501
+  orig: 436, 501
+  offset: 0, 0
+  index: -1
+arm top L
+  rotate: true
+  xy: 3604, 625
+  size: 488, 418
+  orig: 488, 418
+  offset: 0, 0
+  index: -1
+arm top R
+  rotate: true
+  xy: 3068, 1115
+  size: 473, 551
+  orig: 473, 551
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 3068, 111
+  size: 519, 520
+  orig: 519, 520
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 3068, 632
+  size: 534, 481
+  orig: 534, 481
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 967, 680
+  size: 2160, 1830
+  orig: 2160, 1830
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: true
+  xy: 2, 2
+  size: 2838, 963
+  orig: 2838, 963
+  offset: 0, 0
+  index: -1

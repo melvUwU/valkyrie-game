@@ -169,6 +169,7 @@ GameObject:
   - component: {fileID: -6299792829202444373}
   - component: {fileID: 7197530153518706369}
   - component: {fileID: -4943306357697133800}
+  - component: {fileID: -1979209615079811825}
   m_Layer: 7
   m_Name: FinchDrop
   m_TagString: Valkyrie
@@ -347,14 +348,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faa5157f55c88fc46b4d052e1139f1a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockRange: 180
+  blockedEnemies: []
+  healedAllies: []
   maxBlockedEnemies: 1
+  blockRange: 180
   valkyrieAnimation: {fileID: 6893950338532982349}
   idleAnimation: {fileID: 11400000, guid: ddc6fc3220ac47b489e5f19af8802a04, type: 2}
   attackingAnimation: {fileID: 11400000, guid: 277d8bf16fe5e9341bfa1ebbda3d5b1e, type: 2}
   currentState: 
+  attackEnemy: {fileID: 0}
   attackDelay: 1
-  attackDamage: 30
+  attackDamage: 100
   attackTimer: 0
   deployCost: 13
 --- !u!33 &7197530153518706369
@@ -407,6 +411,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-1979209615079811825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6727091494001163226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389ae81ed630364409a26263eb776170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMaxHP: 1500
+  currentMaxHP: 0
+  currentHP: 0
+  gameManager: {fileID: 0}
+  characterAnimation: {fileID: 0}
+  retreatAnimation: {fileID: 0}
 --- !u!1 &7829129606836828718
 GameObject:
   m_ObjectHideFlags: 0

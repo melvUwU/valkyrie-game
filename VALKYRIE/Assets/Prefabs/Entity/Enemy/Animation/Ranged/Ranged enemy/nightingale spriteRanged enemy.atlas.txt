@@ -1,0 +1,160 @@
+
+nightingale sprite.png
+size: 4017,2860
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm L bot
+  rotate: false
+  xy: 3017, 1197
+  size: 502, 523
+  orig: 502, 523
+  offset: 0, 0
+  index: -1
+Arm L top
+  rotate: false
+  xy: 3378, 1722
+  size: 540, 420
+  orig: 540, 420
+  offset: 0, 0
+  index: -1
+Arm R bot
+  rotate: false
+  xy: 3521, 1180
+  size: 445, 540
+  orig: 445, 540
+  offset: 0, 0
+  index: -1
+Arm R top
+  rotate: true
+  xy: 3521, 669
+  size: 509, 473
+  orig: 509, 473
+  offset: 0, 0
+  index: -1
+Ellipse 1 copy
+  rotate: false
+  xy: 3685, 403
+  size: 265, 264
+  orig: 267, 266
+  offset: 1, 1
+  index: -1
+Gun
+  rotate: false
+  xy: 2, 731
+  size: 1564, 853
+  orig: 1564, 853
+  offset: 0, 0
+  index: -1
+Hand L
+  rotate: true
+  xy: 971, 80
+  size: 649, 536
+  orig: 649, 536
+  offset: 0, 0
+  index: -1
+Hand R
+  rotate: true
+  xy: 2858, 117
+  size: 481, 368
+  orig: 481, 368
+  offset: 0, 0
+  index: -1
+Leg R
+  rotate: true
+  xy: 3685, 193
+  size: 208, 275
+  orig: 208, 275
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 2320, 600
+  size: 897, 146
+  orig: 6400, 4917
+  offset: 2668, 936
+  index: -1
+Shround R
+  rotate: true
+  xy: 2320, 116
+  size: 482, 536
+  orig: 482, 548
+  offset: 0, 12
+  index: -1
+body
+  rotate: true
+  xy: 3378, 2144
+  size: 714, 637
+  orig: 714, 637
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 1568, 579
+  size: 1005, 750
+  orig: 1005, 750
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 3228, 202
+  size: 455, 465
+  orig: 455, 465
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: false
+  xy: 3060, 749
+  size: 459, 446
+  orig: 459, 446
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 2, 1586
+  size: 2309, 1272
+  orig: 2309, 1272
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: true
+  xy: 3228, 2
+  size: 198, 276
+  orig: 198, 276
+  offset: 0, 0
+  index: -1
+mask back
+  rotate: true
+  xy: 2, 12
+  size: 717, 967
+  orig: 717, 967
+  offset: 0, 0
+  index: -1
+mask front
+  rotate: false
+  xy: 2313, 1750
+  size: 1063, 1108
+  orig: 1063, 1108
+  offset: 0, 0
+  index: -1
+shround L
+  rotate: false
+  xy: 2320, 1120
+  size: 695, 628
+  orig: 695, 628
+  offset: 0, 0
+  index: -1
+skirt back
+  rotate: true
+  xy: 2320, 748
+  size: 370, 738
+  orig: 370, 738
+  offset: 0, 0
+  index: -1
+skirt front
+  rotate: true
+  xy: 1509, 71
+  size: 506, 779
+  orig: 506, 779
+  offset: 0, 0
+  index: -1

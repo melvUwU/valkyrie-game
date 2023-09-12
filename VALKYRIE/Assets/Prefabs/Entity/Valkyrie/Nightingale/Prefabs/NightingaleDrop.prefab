@@ -309,9 +309,10 @@ GameObject:
   - component: {fileID: -5515799145491150381}
   - component: {fileID: 3105670406760809019}
   - component: {fileID: 6173660069547373346}
-  m_Layer: 0
+  - component: {fileID: -6249186855314217727}
+  m_Layer: 7
   m_Name: NightingaleDrop
-  m_TagString: Untagged
+  m_TagString: Valkyrie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -545,8 +546,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockedEnemies: []
-  blockRange: 1
+  healedAllies: []
   maxBlockedEnemies: 1
+  blockRange: 1
   valkyrieAnimation: {fileID: 7938848259952560484}
   deployAnimation: {fileID: 11400000, guid: e926cf342917be6418112e49e71f1bb1, type: 2}
   retreatAnimation: {fileID: 11400000, guid: fb5e23688f7b8d646976407cb39440f3, type: 2}
@@ -554,6 +556,24 @@ MonoBehaviour:
   attackingAnimation: {fileID: 11400000, guid: 22274f904a04e0644b7648b37fe8073c, type: 2}
   currentState: 
   attackDelay: 1
-  attackDamage: 50
+  attackDamage: 100
   attackTimer: 0
   deployCost: 15
+--- !u!114 &-6249186855314217727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7967910147753018615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389ae81ed630364409a26263eb776170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMaxHP: 2000
+  currentMaxHP: 0
+  currentHP: 0
+  gameManager: {fileID: 0}
+  characterAnimation: {fileID: 7938848259952560484}
+  retreatAnimation: {fileID: 11400000, guid: fb5e23688f7b8d646976407cb39440f3, type: 2}

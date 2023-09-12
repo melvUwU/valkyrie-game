@@ -205,6 +205,7 @@ GameObject:
   - component: {fileID: 7197530153518706369}
   - component: {fileID: -4943306357697133800}
   - component: {fileID: -7870005837452594496}
+  - component: {fileID: 5807329795452056276}
   m_Layer: 7
   m_Name: ColumbinaDrop
   m_TagString: Valkyrie
@@ -221,7 +222,7 @@ RectTransform:
   m_GameObject: {fileID: 6727091494001163226}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.03993466, y: 0.039934665, z: 0.039934665}
+  m_LocalScale: {x: 0.03993466, y: 0.039934665, z: 0.039934665}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5967540585350352378}
@@ -231,7 +232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 128.7, y: 126}
+  m_AnchoredPosition: {x: -120.8, y: 126}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2681390853235141329
@@ -434,19 +435,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a74f35c58d8ad7488e6400fab441f7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockRange: 100
-  attackRange: 200
-  maxBlockedEnemies: 1
-  valkyrieAnimation: {fileID: 6893950338532982349}
+  blockedEnemies: []
+  healedAllies: []
+  maxBlockedEnemies: 0
+  healRange: 200
+  maxHealedAllies: 1
+  medicAnimation: {fileID: 6893950338532982349}
   deployAnimation: {fileID: 11400000, guid: a92beb6d62fcedf458e32c457d4da1d0, type: 2}
   retreatAnimation: {fileID: 11400000, guid: 71cf28c67c0b47945a04567de06f30df, type: 2}
   idleAnimation: {fileID: 11400000, guid: 5a6f313c10eba51489efe4a9c9ada26c, type: 2}
-  attackingAnimation: {fileID: 11400000, guid: 37172038ba28b26429ce5975c881dd52, type: 2}
+  healingAnimation: {fileID: 11400000, guid: 37172038ba28b26429ce5975c881dd52, type: 2}
   currentState: 
-  attackDelay: 1
-  attackDamage: 60
-  bulletPrefab: {fileID: 945708065422523196, guid: 759a7067040564a48b464074a7681bb0, type: 3}
-  firePoint: {fileID: 5967540585350352378}
+  healPrefab: {fileID: 100000, guid: 7a2b3c6dde1175a439506d7d2e259bbf, type: 3}
+  healPoint: {fileID: 5967540585350352378}
+  healDelay: 1
+  healAmount: 50
+  deployCost: 0
+--- !u!114 &5807329795452056276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6727091494001163226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389ae81ed630364409a26263eb776170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMaxHP: 1200
+  currentMaxHP: 0
+  currentHP: 0
+  gameManager: {fileID: 0}
+  characterAnimation: {fileID: 6893950338532982349}
+  retreatAnimation: {fileID: 11400000, guid: 71cf28c67c0b47945a04567de06f30df, type: 2}
 --- !u!1 &7829129606836828718
 GameObject:
   m_ObjectHideFlags: 0
