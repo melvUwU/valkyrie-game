@@ -205,7 +205,6 @@ GameObject:
   - component: {fileID: 7197530153518706369}
   - component: {fileID: -4943306357697133800}
   - component: {fileID: 6285788399836708776}
-  - component: {fileID: -76227297514900550}
   m_Layer: 7
   m_Name: JayeDrop
   m_TagString: Valkyrie
@@ -435,11 +434,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469ba1a8f1e23504f9c2161ac5d2d08a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockedEnemies: []
-  healedAllies: []
-  maxBlockedEnemies: 1
   blockRange: 100
   attackRange: 280
+  maxBlockedEnemies: 1
   valkyrieAnimation: {fileID: 6893950338532982349}
   deployAnimation: {fileID: 11400000, guid: 8c5bbd3a3e5ce504688952228149dd3e, type: 2}
   retreatAnimation: {fileID: 11400000, guid: abf24e69cc2a34c43aa5bb338a042966, type: 2}
@@ -450,24 +447,6 @@ MonoBehaviour:
   attackDamage: 40
   bulletPrefab: {fileID: 945708065422523196, guid: 759a7067040564a48b464074a7681bb0, type: 3}
   firePoint: {fileID: 5967540585350352378}
---- !u!114 &-76227297514900550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6727091494001163226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 389ae81ed630364409a26263eb776170, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  baseMaxHP: 1400
-  currentMaxHP: 0
-  currentHP: 0
-  gameManager: {fileID: 0}
-  characterAnimation: {fileID: 6893950338532982349}
-  retreatAnimation: {fileID: 11400000, guid: abf24e69cc2a34c43aa5bb338a042966, type: 2}
 --- !u!1 &7829129606836828718
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: b925d2fe5178b0c48b47d7929894a402
@@ -15,234 +18,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter.unity
     guid: 8a03811a5ab1d16498d8955d1b49fc09
   - enabled: 1
-    path: Assets/Scenes/Gameplay/Gamplay Part 1.unity
+    path: Assets/Scenes/Gamplay Part 1.unity
     guid: a6216b07227521e4eb634b19d45d0d35
+  - enabled: 1
+    path: Assets/Scenes/Gamplay Part 2.unity
+    guid: a713171da7921da43b3976b616401bbb
   - enabled: 1
     path: Assets/Scenes/Squad.unity
     guid: b0dcc7883881ab242a09981389e6d0ed
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Gameplay/Gamplay Part 2.unity
-    guid: 33b1fda0e9f0cbd4e92f4989cc627984
+    path: Assets/Scenes/Valkyrie Info 1.unity
+    guid: 9bba66dfbc634c04e9629f0155f4dfbc
   - enabled: 1
-    path: Assets/Scenes/Gameplay/Gamplay Part 3.unity
-    guid: 1f0ea3c10c6402c429749ec50f7ca0c2
+    path: Assets/Scenes/Valkyrie Story 1.unity
+    guid: 827489a48e0d4ab4f84b5772e6cf7732
   - enabled: 1
-    path: Assets/Scenes/Gameplay/Gamplay Part 4.unity
-    guid: 0b5bab23cb1f7284e9df768f742728f6
+    path: Assets/Scenes/Valkyrie Specialize.unity
+    guid: d96ef68d88800e848aac72c561a3c2ca
   - enabled: 1
-    path: Assets/Scenes/Gameplay/Gamplay Part 5.unity
-    guid: d14828a4e4fcbe643b9cbd448e6177e5
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/Begin Operation/Begin Operation.unity
+    path: Assets/Scenes/Begin Operation.unity
     guid: 613d52d5b646dc941a0033eb1bc71928
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/Upgrade/Columbina Specialize.unity
-    guid: 71928bd2428e60243b4b34e167af375e
-  - enabled: 1
-    path: Assets/Scenes/Upgrade/Finch Specialize 3.unity
-    guid: fa014516c5a29ef419a852531196f232
-  - enabled: 1
-    path: Assets/Scenes/Upgrade/Jaye Specialize.unity
-    guid: 64068200e9307c44c95a32e6edc64a14
-  - enabled: 1
-    path: Assets/Scenes/Upgrade/Nightingale Specialize.unity
-    guid: a4960437dd1c9cf478bb7710fe9a3fae
-  - enabled: 1
-    path: Assets/Scenes/Upgrade/Raven Specialize.unity
-    guid: 1078705853590a54e8b4d723b8dce194
-  - enabled: 1
-    path: Assets/Scenes/Upgrade/Sparrow Specialize.unity
-    guid: 96c0a56a8c7ab1a48abe736f9406defb
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene01.unity
-    guid: 7b60d71d60dbee744a00e8c01db1224c
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene02.unity
-    guid: 56c27ff2472d5b34084b8d13e27a052d
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene03.unity
-    guid: ea9f58dbc89cd824194b9a3eb136b561
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene04.unity
-    guid: 0a1795e291483d7448d9b3e19cec06b3
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene05.unity
-    guid: daca4ccf75b72244bb661e218f6e556f
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene06.unity
-    guid: d1c03ce09c396a440867a643d5bdff27
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene07.unity
-    guid: 80944e965a5e557439b0a04afd3fe0ef
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene08.unity
-    guid: a3c53b0773525f24aa2a4e3630251fec
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene09.unity
-    guid: 5d2a5f682de92f643bc00e4619796abb
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene010.unity
-    guid: 5530d6aa58c1d594ead97779b2bd672e
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene011.unity
-    guid: 6a49957dfe3adcf41b89cec43dbe0231
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene012.unity
-    guid: 25682f2921196064eadf9376277cf8c7
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene013.unity
-    guid: 9581bfaa070813549a9652cfd1ddf025
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene014.unity
-    guid: bd2c4c96a5b908b479505c4480ae1942
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene015.unity
-    guid: a7f40f08de3b434449e4bda2c4171dc9
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene016.unity
-    guid: aa1ff11642ee2ea4f9557dc0ae4ee22d
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene017.unity
-    guid: bc9537a86ba897d44acde02a8529194b
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene018.unity
-    guid: db857c040ccf2544ea6bea326a8b38df
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene019.unity
-    guid: 7bad72642cdf7614d94ecbd8ae3869ba
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene020.unity
-    guid: 8aaca3b51ee2a2f41b4bcba39eb3b63a
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene021.unity
-    guid: 8858093ca883bb840b980cd5792ff3fd
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene022.unity
-    guid: 86add02212d01c241827e7577e8c3500
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene023.unity
-    guid: 18e4c5f019390f54fb580a77e6dbc61a
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene024.unity
-    guid: 0f9667f04bf9a274298b802ae238c50a
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene025.unity
-    guid: 1877f1344d2337045bbbb1369c41c84c
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene026.unity
-    guid: ece8d71059505da47aee1cfa899002a8
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene027.unity
-    guid: 95b8b3400cb40644ebb22846fb4606f8
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene028.unity
-    guid: baaed4a80b5abea4f896ba8f52a49baf
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene029.unity
-    guid: a0599290316032346b49e2801edb11b8
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene030.unity
-    guid: 66cee22150cd8f94899aec277b173a75
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene031.unity
-    guid: 1b5a59ea87010d74b9e3a9f6196b6c7d
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene032.unity
-    guid: f365fa11e410695428d59e8285066283
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene033.unity
-    guid: d959ade84f5485b49b933b755c41f618
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene034.unity
-    guid: cc30523a663bc1c4ca1b47ba98699f5f
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene035.unity
-    guid: fd95fcb5bb7d7874490acd0a7a34239f
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene036.unity
-    guid: 969e63fb194226e488cd24ad9017c681
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene037.unity
-    guid: 9d911476a4454e24cb21470670befa67
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene038.unity
-    guid: 04a37c3be08f8f143bbb010f92fb7ea5
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene039.unity
-    guid: 8620b757eedc9fc418f73e0ccddf476a
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene040.unity
-    guid: 1c4891289dd3b4044b50a12d6ea1c7e8
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene041.unity
-    guid: b2070004f9bdb684dbad421fa660b3f8
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene042.unity
-    guid: 17aded2a51c2e674899ea96b55b9a409
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene043.unity
-    guid: a245cdc48d422f8408f302ac3fe511f1
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene044.unity
-    guid: 3fbff32ad9a91d24991d4ba256e87636
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene045.unity
-    guid: 842d70a0f19177e4b83290d44cef01fc
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene046.unity
-    guid: 3d4ec4ad08669e24e930a95d21912403
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene047.unity
-    guid: ae8bc08a30741ee4d8ec934bd341efe0
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene048.unity
-    guid: 88455c0d999156845b84343f593b7aa7
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene049.unity
-    guid: aa5293188a20e2749ad14ef8fb1cffaf
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene050.unity
-    guid: 51aea4e1ca3c84f4b89bcc7cae10c697
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene051.unity
-    guid: 3b1cd903113aa9c49a074d14129a5e19
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene052.unity
-    guid: c04c6a400c760bd4698d857e2ea668c9
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene053.unity
-    guid: b3a305599586ca74d86a6330a8e1a73f
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene054.unity
-    guid: 5ede66343b199a94fbd79439a4120844
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene055.unity
-    guid: 8190223eb2a62624b91ffb8c1a31dc49
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene056.unity
-    guid: da90d560a39239f4bad440739e35cd4f
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene057.unity
-    guid: 3110d7be2512a8a4cbc8807506ae7e52
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene058.unity
-    guid: 20cc6b9b8020ca84985864b570da46ab
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene059.unity
-    guid: 104445c61fca5f640b44fa678b33a265
-  - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1/Scene060.unity
-    guid: 037e9e34aef73914f9ca33a0a6bcb96a
   m_configObjects: {}

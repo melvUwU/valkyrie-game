@@ -20,7 +20,7 @@ public class EnemySpawner : MonoBehaviour
         {
             if(currentEP==SpawnOnEP && enemy.isSpawned == false && enemy.spawnTime <= Time.time)
             {
-                Instantiate(enemyPrefabs[(int)enemy.enemyType], spawner.transform);
+                Instantiate(enemyPrefabs[(int)enemy.enemyType], spawner.transform).SetActive(true);
                 enemy.isSpawned = true;
 
             }

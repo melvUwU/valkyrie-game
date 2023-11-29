@@ -6,9 +6,6 @@ TagManager:
   tags:
   - Enemy
   - Valkyrie
-  - A
-  - B
-  - C
   layers:
   - Default
   - TransparentFX

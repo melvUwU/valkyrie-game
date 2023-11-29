@@ -69,7 +69,7 @@ public class Button : MonoBehaviour
     {
         isPaused = true;
         Debug.Log("game pause" + isPaused);
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f; //edit
         exit.SetActive(true);
     }
 

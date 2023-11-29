@@ -33,7 +33,7 @@ public class EnemyMovement : MonoBehaviour
 
     public float attackTimer;
 
-    public string waypointTag; // Tag to determine the path
+    //public string waypointTag; // Tag to determine the path
 
     private void Start()
     {
@@ -42,17 +42,12 @@ public class EnemyMovement : MonoBehaviour
         blocked = false;
 
         // Retrieve the waypoints based on the specified tag
-        currentWaypoints = new List<Transform>(Waypaths.GetWaypointsForPath(waypointTag));
+        //currentWaypoints = new List<Transform>(Waypaths.GetWaypointsForPath(waypointTag));
         
 
         if (currentWaypoints.Count > 0)
         {
             SetNextWaypoint();
-        }
-        else
-        {
-            Debug.LogError("No waypoints found for path with tag: " + waypointTag);
-            Destroy(gameObject);
         }
     }
 
@@ -164,7 +159,9 @@ public class EnemyMovement : MonoBehaviour
         SetCharacterState("Dead");
         yield return new WaitForSeconds(0.7f);
         Destroy(gameObject);
-        ScoreManager.enemyKill++;
+        ScoreManager scoreManager = GameObject.Find("GameManager").GetComponent<ScoreManager>();
+        scoreManager.enemyKillCount++;
+        //ScoreManager.enemyKill++;
     }
 
     //initialize enemy attacking system

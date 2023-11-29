@@ -1552,7 +1552,7 @@ MonoBehaviour:
   deadAnimation: {fileID: 11400000, guid: a913d85b340914a4abac412ad950d45d, type: 2}
   currentState: 
   enemyAtkDelay: 4
-  enemyAtkDamage: 150
+  enemyAtkDamage: 800
   attackTimer: 0
   waypointTag: A
 --- !u!1 &9164886040519926390

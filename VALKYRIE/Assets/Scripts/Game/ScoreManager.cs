@@ -15,6 +15,8 @@ public class ScoreManager : MonoBehaviour
 
     public static int enemyKill;
     public static int lifePoints;
+    public int enemyKillCount;
+    public int maxKill;
 
     public enum GameStage
     {
@@ -37,42 +39,18 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameOverScreen.SetActive(false);
+        completeScreen.SetActive(false);
+        clearedScreen.SetActive(false);
         gameOver = false;
-        SetStageCounts(currentStage);
+        //SetStageCounts(currentStage);
         
-    }
-
-    public void SetStageCounts(GameStage stage)
-    {
-        switch (stage)
-        {
-            case GameStage.Stage1:
-                enemyKill = 0;
-                lifePoints = 5;
-                break;
-            case GameStage.Stage2:
-                enemyKill = 0;
-                lifePoints = 5;
-                break;
-            case GameStage.Stage3:
-                enemyKill = 0;
-                lifePoints = 5;
-                break;
-            case GameStage.Stage4:
-                enemyKill = 0;
-                lifePoints = 5;
-                break;
-            case GameStage.Stage5:
-                enemyKill = 0;
-                lifePoints = 5;
-                break;
-
-        }
     }
 
     // Update is called once per frame
     public void Update()
     {
+        enemyKill = enemyKillCount;
 
         enemyKillText.text = enemyKill.ToString();
         lifePointsText.text = lifePoints.ToString();
@@ -82,22 +60,16 @@ public class ScoreManager : MonoBehaviour
 
         if (lifePoints == 0 && !gameOver)
         {
-            Debug.Log(lifePoints);
-            gameOver = true;
-            gameOverScreen.SetActive(true);
-            Time.timeScale = 0f;
+            //Debug.Log(lifePoints);
+            //gameOver = true;
+            //gameOverScreen.SetActive(true);
+            //Time.timeScale = 0f;
         }
-        else if (enemyKill == TotalEnemiesForCurrentStage())
+        if (enemyKill == maxKill)
         {
             completeScreen.SetActive(true);
-            Time.timeScale = 0f;
-            // Calculate and display rewards when the stage is completed
-            rewardManager.CalculateAndDisplayRewards(enemyKill, TotalEnemiesForCurrentStage(), lifePoints);
-        }
-        else if (lifePoints < 5 && Enemies.Count == 0 && enemyKill <= TotalEnemiesForCurrentStage())
-        {
-            clearedScreen.SetActive(true);
-            Time.timeScale = 0f;
+            //Time.timeScale = 0f; //edit
+
             // Calculate and display rewards when the stage is completed
             rewardManager.CalculateAndDisplayRewards(enemyKill, TotalEnemiesForCurrentStage(), lifePoints);
         }
@@ -115,9 +87,9 @@ public class ScoreManager : MonoBehaviour
             case GameStage.Stage3:
                 return 15;
             case GameStage.Stage4:
-                return 20;
+                return 15;
             case GameStage.Stage5:
-                return 25;
+                return 11;
             // Add more cases for other stages
             default:
                 return 0;
@@ -136,9 +108,9 @@ public class ScoreManager : MonoBehaviour
             case GameStage.Stage3:
                 return 15;
             case GameStage.Stage4:
-                return 20;
+                return 15;
             case GameStage.Stage5:
-                return 25;
+                return 11;
             // Add more cases for other stages
             default:
                 return 0;

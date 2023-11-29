@@ -309,10 +309,9 @@ GameObject:
   - component: {fileID: 608294423951291998}
   - component: {fileID: -5515799145491150381}
   - component: {fileID: 3105670406760809019}
-  - component: {fileID: 5227662091305537247}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: RavenDrop
-  m_TagString: Valkyrie
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -374,7 +373,7 @@ MonoBehaviour:
   initialFlipX: 0
   initialFlipY: 0
   startingAnimation: Idle
-  startingLoop: 0
+  startingLoop: 1
   timeScale: 1
   freeze: 0
   updateWhenInvisible: 3
@@ -486,8 +485,8 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: Deploy
-  loop: 0
+  _animationName: Idle
+  loop: 1
   timeScale: 1
 --- !u!114 &608294423951291998
 MonoBehaviour:
@@ -502,9 +501,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockedEnemies: []
-  healedAllies: []
-  maxBlockedEnemies: 3
   blockRange: 1
+  maxBlockedEnemies: 3
   valkyrieAnimation: {fileID: 7938848259952560484}
   deployAnimation: {fileID: 11400000, guid: 740d142b34c134e4a911131e23ce8fdd, type: 2}
   retreatAnimation: {fileID: 11400000, guid: 059ca94506cb9fe458f22171ea61cd72, type: 2}
@@ -562,21 +560,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5227662091305537247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7967910147753018615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 389ae81ed630364409a26263eb776170, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  baseMaxHP: 3000
-  currentMaxHP: 0
-  currentHP: 0
-  gameManager: {fileID: 0}
-  characterAnimation: {fileID: 7938848259952560484}
-  retreatAnimation: {fileID: 11400000, guid: 059ca94506cb9fe458f22171ea61cd72, type: 2}

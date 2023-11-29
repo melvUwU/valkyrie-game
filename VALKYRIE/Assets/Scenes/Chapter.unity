@@ -420,8 +420,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1994510009}
   m_HandleRect: {fileID: 1994510008}
   m_Direction: 0
-  m_Value: -0.000000064974415
-  m_Size: 0.32114226
+  m_Value: 0
+  m_Size: 0.32114223
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -476,7 +476,6 @@ GameObject:
   - component: {fileID: 393178176}
   - component: {fileID: 393178175}
   - component: {fileID: 393178174}
-  - component: {fileID: 393178177}
   m_Layer: 5
   m_Name: 1 (1)
   m_TagString: Untagged
@@ -547,19 +546,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 393178175}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 393178177}
-        m_TargetAssemblyTypeName: Button, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Gamplay Part 2
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &393178175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -598,22 +585,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393178172}
   m_CullTransparentMesh: 1
---- !u!114 &393178177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 393178172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d20adc9721a0f8f4d95572dd7a86cdc3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panel: {fileID: 0}
-  resumeButton: {fileID: 0}
-  pauseButton: {fileID: 0}
-  exit: {fileID: 0}
 --- !u!1 &584838488
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,9 +959,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
-  resumeButton: {fileID: 0}
-  pauseButton: {fileID: 0}
-  exit: {fileID: 0}
 --- !u!1 &713173735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,7 +970,6 @@ GameObject:
   - component: {fileID: 713173738}
   - component: {fileID: 713173737}
   - component: {fileID: 713173736}
-  - component: {fileID: 713173739}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1076,25 +1043,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &713173739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 713173735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0182a43d6153a6a42974cf3f23d85c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentScene: 
-  scenesToReset:
-  - Gamplay Part 1
-  - Gamplay Part 2
-  - Gamplay Part 3
-  - Gamplay Part 4
-  - Gamplay Part 5
 --- !u!1 &770822259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1374,7 +1322,6 @@ GameObject:
   - component: {fileID: 1040065290}
   - component: {fileID: 1040065289}
   - component: {fileID: 1040065288}
-  - component: {fileID: 1040065291}
   m_Layer: 5
   m_Name: 1 (2)
   m_TagString: Untagged
@@ -1442,22 +1389,10 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 393178175}
+  m_TargetGraphic: {fileID: 1040065289}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1040065291}
-        m_TargetAssemblyTypeName: Button, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Gamplay Part 3
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1040065289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1496,22 +1431,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040065286}
   m_CullTransparentMesh: 1
---- !u!114 &1040065291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1040065286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d20adc9721a0f8f4d95572dd7a86cdc3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panel: {fileID: 0}
-  resumeButton: {fileID: 0}
-  pauseButton: {fileID: 0}
-  exit: {fileID: 0}
 --- !u!1 &1213851037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,7 +1443,6 @@ GameObject:
   - component: {fileID: 1213851041}
   - component: {fileID: 1213851040}
   - component: {fileID: 1213851039}
-  - component: {fileID: 1213851042}
   m_Layer: 5
   m_Name: 1 (3)
   m_TagString: Untagged
@@ -1595,19 +1513,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1213851040}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1213851042}
-        m_TargetAssemblyTypeName: Button, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Gamplay Part 4
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1213851040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1646,22 +1552,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213851037}
   m_CullTransparentMesh: 1
---- !u!114 &1213851042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1213851037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d20adc9721a0f8f4d95572dd7a86cdc3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panel: {fileID: 0}
-  resumeButton: {fileID: 0}
-  pauseButton: {fileID: 0}
-  exit: {fileID: 0}
 --- !u!1 &1226009725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,7 +1697,6 @@ GameObject:
   - component: {fileID: 1259348396}
   - component: {fileID: 1259348395}
   - component: {fileID: 1259348394}
-  - component: {fileID: 1259348397}
   m_Layer: 5
   m_Name: 1 (4)
   m_TagString: Untagged
@@ -1878,19 +1767,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1259348395}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1259348397}
-        m_TargetAssemblyTypeName: Button, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Gamplay Part 5
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1259348395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1929,22 +1806,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259348392}
   m_CullTransparentMesh: 1
---- !u!114 &1259348397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259348392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d20adc9721a0f8f4d95572dd7a86cdc3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panel: {fileID: 0}
-  resumeButton: {fileID: 0}
-  pauseButton: {fileID: 0}
-  exit: {fileID: 0}
 --- !u!1001 &1313185123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2149,9 +2010,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
-  resumeButton: {fileID: 0}
-  pauseButton: {fileID: 0}
-  exit: {fileID: 0}
 --- !u!1001 &1542708772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2162,10 +2020,6 @@ PrefabInstance:
     - target: {fileID: 7136633919852023889, guid: 10177245356d44843b575243ab41e64e, type: 3}
       propertyPath: m_Name
       value: Back
-      objectReference: {fileID: 0}
-    - target: {fileID: 7136633919852024237, guid: 10177245356d44843b575243ab41e64e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Mainmenu
       objectReference: {fileID: 0}
     - target: {fileID: 7136633919852024238, guid: 10177245356d44843b575243ab41e64e, type: 3}
       propertyPath: m_Pivot.x
